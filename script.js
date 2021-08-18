@@ -24,6 +24,7 @@ function onSpeak() {
   writeMessage(spokenText);
   checkNumber(spokenText);
   console.log("speech detected")
+  recognition.stop()
 }
 
 function writeMessage(msg) {
